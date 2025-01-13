@@ -7,7 +7,7 @@ migrate = Migrate()
 
 def create_app():
     app = Flask(__name__)
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhost/db_name'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://christinemundi:Nans1247@localhost/ambucare'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     
     db.init_app(app)
